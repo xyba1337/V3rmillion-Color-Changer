@@ -53,8 +53,3 @@ a.button:link, a.button:visited, a.button:active, .pagination a, .postbit_button
     height: 200px;
 }
 
-@media only screen and (max-width: 600px) {
-    #logo img {
-        width: initial;
-    }
-}
