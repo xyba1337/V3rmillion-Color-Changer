@@ -1,0 +1,60 @@
+/* Add the color of your choice here */
+:root {
+  --main-color: #3ad02c;
+}
+
+/* Remove ads and other annoying messages */
+.pm_alert, #sharingPlace, .red_alert {
+    display: none
+}
+
+
+
+/* Ignore */
+.thread_head, #bridge {
+    border-bottom: 5px solid var(--main-color);
+}
+
+a.button:link, a.button:visited, a.button:active, .pagination a, .postbit_buttons>a:link, .postbit_buttons>a:hover, .postbit_buttons>a:visited, .postbit_buttons>a:active, button, button, input.button {
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+.pm_new, .alert_new, .tfoot, .thead {
+    background: var(--main-color) !important;
+}
+
+.cRem a:link, .cRem a:visited, .forum_on, .inline_row a {
+    color: var(--main-color) !important
+}
+
+.postlink, hr {
+    border: solid thin var(--main-color);
+}
+
+#footer, ul.menu li ul,.panel_buttons  {
+    border-top: 5px solid var(--main-color);
+}
+
+.thead input.textbox, .thead select {
+    border: 1px solid var(--main-color);
+}
+
+
+#logo img {
+    content:url("no-url-to-hack-around-it hehe");
+    -webkit-mask-image: url(https://i.imgur.com/z9JEPPz.png);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    background-color: var(--main-color);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    #logo img {
+        width: initial;
+    }
+}
